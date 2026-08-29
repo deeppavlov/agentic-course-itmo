@@ -2,6 +2,8 @@
 
 Роль: AI Architect, Data Analyst, ML Engineer
 
+Записи занятий 2025 года: [YouTube](https://youtube.com/playlist?list=PL0-pl0EETLUaeA7I7XWBi0Z7XGiwdRx54)
+
 ## Вступительное видео по курсу здесь
 
 # 1. Преподаватели 👨‍🎓
