@@ -153,11 +153,16 @@
 
 > ***Готовность активно работать весь семестр. У курса высокая нагрузка и много практики.***
 
-## 6. Темы для разборов статей 📚
+## 6. Статьи для разбора 📚
 
-Корпус статей семестра в [papers.md](papers.md), в разработке.
+О порядке проведения семинара читайте в [`seminar.md`](./seminar.md).
 
-> 🔸 *Уточняется:* финальный список из ~20 статей к экзамену, распределение по 8 семинарам.
+| Семинар | Название | Ссылка |
+| -- | -- | -- |
+| 1 | Mikolov et al, 2013, "Efficient Estimation of Word Representations in Vector Space" | https://arxiv.org/abs/1301.3781 |
+| | Sutskever et al, 2014, "Sequence to Sequence Learning with Neural Networks" | https://arxiv.org/abs/1409.3215 |
+| | Karpathy et al, 2015, "Visualizing and Understanding Recurrent Networks" | https://arxiv.org/abs/1506.02078 |
+
 
 ## 7. Система оценивания 📊
 
