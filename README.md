@@ -168,7 +168,9 @@
 | 1 | Mikolov et al, 2013, "Efficient Estimation of Word Representations in Vector Space" | https://arxiv.org/abs/1301.3781 |
 | | Sutskever et al, 2014, "Sequence to Sequence Learning with Neural Networks" | https://arxiv.org/abs/1409.3215 |
 | | Karpathy et al, 2015, "Visualizing and Understanding Recurrent Networks" | https://arxiv.org/abs/1506.02078 |
-
+| 2 | Modarressi et al, 2025, "NoLiMa: Long-Context Evaluation Beyond Literal Matching" | https://arxiv.org/abs/2502.05167 |
+| | Agarwal et al, 2024, "Many-Shot In-Context Learning" | https://arxiv.org/abs/2404.11018 |
+| | Yue et al, 2015, "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?" | https://arxiv.org/abs/2504.13837 |
 
 ## 7. Система оценивания 📊
 
