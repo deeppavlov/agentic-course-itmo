@@ -13,7 +13,8 @@
 - **расхождение со статьёй** — код реализует не то, что описано в статье: найдите это место;
 - **перепутаны местами блоки кода** — какой-то блок стоит не на своём месте: найдите его;
 - **неверный комментарий** — код корректен, но один комментарий утверждает неправду: найдите
-  его.
+  его;
+- **вопрос по коду** — ошибок в коде нет: ответьте на вопросы по статье, опираясь на код.
 
 Для найденного отклонения напишите: где оно, что не так, какое место статьи (раздел /
 формула / таблица / цитата) нарушено и как должно быть. Код писать не нужно — достаточно
@@ -36,3 +37,11 @@
 | Mikolov et al., 2013 — [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) | [`sem1/1301.3781-word2vec/admission.ipynb`](sem1/1301.3781-word2vec/admission.ipynb) |
 | Sutskever et al., 2014 — [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215) | [`sem1/1409.3215-seq2seq/admission.ipynb`](sem1/1409.3215-seq2seq/admission.ipynb) |
 | Karpathy et al., 2015 — [Visualizing and Understanding Recurrent Networks](https://arxiv.org/abs/1506.02078) | [`sem1/1506.02078-visualizing-rnns/admission.ipynb`](sem1/1506.02078-visualizing-rnns/admission.ipynb) |
+
+## Семинар 2
+
+| Статья | Допуск |
+|---|---|
+| Agarwal et al., 2024 — [Many-Shot In-Context Learning](https://arxiv.org/abs/2404.11018) | [`sem2/2404.11018-many-shot-icl/admission.ipynb`](sem2/2404.11018-many-shot-icl/admission.ipynb) |
+| Modarressi et al., 2025 — [NoLiMa: Long-Context Evaluation Beyond Literal Matching](https://arxiv.org/abs/2502.05167) | [`sem2/2502.05167-nolima/admission.ipynb`](sem2/2502.05167-nolima/admission.ipynb) |
+| Yue et al., 2025 — [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://arxiv.org/abs/2504.13837) | [`sem2/2504.13837-rl-reasoning-boundary/admission.ipynb`](sem2/2504.13837-rl-reasoning-boundary/admission.ipynb) |
