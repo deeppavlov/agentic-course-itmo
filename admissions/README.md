@@ -45,3 +45,11 @@
 | Agarwal et al., 2024 — [Many-Shot In-Context Learning](https://arxiv.org/abs/2404.11018) | [`sem2/2404.11018-many-shot-icl/admission.ipynb`](sem2/2404.11018-many-shot-icl/admission.ipynb) |
 | Modarressi et al., 2025 — [NoLiMa: Long-Context Evaluation Beyond Literal Matching](https://arxiv.org/abs/2502.05167) | [`sem2/2502.05167-nolima/admission.ipynb`](sem2/2502.05167-nolima/admission.ipynb) |
 | Yue et al., 2025 — [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://arxiv.org/abs/2504.13837) | [`sem2/2504.13837-rl-reasoning-boundary/admission.ipynb`](sem2/2504.13837-rl-reasoning-boundary/admission.ipynb) |
+
+## Семинар 3
+
+| Статья | Допуск |
+|---|---|
+| Laban et al., 2025 — [LLMs Get Lost In Multi-Turn Conversation](https://arxiv.org/abs/2505.06120) | [`sem3/2505.06120-lost-in-conversation/admission.ipynb`](sem3/2505.06120-lost-in-conversation/admission.ipynb) |
+| Wu et al., 2025 — [CollabLLM: From Passive Responders to Active Collaborators](https://arxiv.org/abs/2502.00640) | [`sem3/2502.00640-collabllm/admission.ipynb`](sem3/2502.00640-collabllm/admission.ipynb) |
+| Li et al., 2025 — [In-the-Flow Agentic System Optimization for Effective Planning and Tool Use (AgentFlow)](https://arxiv.org/abs/2510.05592) | [`sem3/2510.05592-agentflow/admission.ipynb`](sem3/2510.05592-agentflow/admission.ipynb) |
