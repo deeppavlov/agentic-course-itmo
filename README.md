@@ -155,22 +155,13 @@
 
 ## 6. Статьи для разбора 📚
 
-О порядке проведения семинара читайте в [`seminar.md`](./seminar.md).
+О порядке проведения семинара читайте в [`seminar.md`](./seminar.md). Список статей для разбора [тут](./admissions/README.md#семинар-1).
 
 **💬 [Отзыв спикеру](https://forms.yandex.ru/cloud/6aca1a96068ff04b969c400c)** — если вам есть что сказать спикеру после разбора статьи, укажите его аккаунт в tg и напишите отзыв. Отзыв анонимно передадут спикеру, чтобы он мог учесть его при следующем разборе.
 
 - Пишите культурно и вежливо, никаких оскорблений.
 - Цель — дать полезную обратную связь, которую спикер готов принять.
 - Отзыв необязателен и никак не влияет на оценку ни спикера, ни автора отзыва.
-
-| Семинар | Название | Ссылка |
-| -- | -- | -- |
-| 1 | Mikolov et al, 2013, "Efficient Estimation of Word Representations in Vector Space" | https://arxiv.org/abs/1301.3781 |
-| | Sutskever et al, 2014, "Sequence to Sequence Learning with Neural Networks" | https://arxiv.org/abs/1409.3215 |
-| | Karpathy et al, 2015, "Visualizing and Understanding Recurrent Networks" | https://arxiv.org/abs/1506.02078 |
-| 2 | Modarressi et al, 2025, "NoLiMa: Long-Context Evaluation Beyond Literal Matching" | https://arxiv.org/abs/2502.05167 |
-| | Agarwal et al, 2024, "Many-Shot In-Context Learning" | https://arxiv.org/abs/2404.11018 |
-| | Yue et al, 2015, "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?" | https://arxiv.org/abs/2504.13837 |
 
 ## 7. Система оценивания 📊
 
