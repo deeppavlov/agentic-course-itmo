@@ -53,3 +53,11 @@
 | Laban et al., 2025 — [LLMs Get Lost In Multi-Turn Conversation](https://arxiv.org/abs/2505.06120) | [`sem3/2505.06120-lost-in-conversation/admission.ipynb`](sem3/2505.06120-lost-in-conversation/admission.ipynb) |
 | Wu et al., 2025 — [CollabLLM: From Passive Responders to Active Collaborators](https://arxiv.org/abs/2502.00640) | [`sem3/2502.00640-collabllm/admission.ipynb`](sem3/2502.00640-collabllm/admission.ipynb) |
 | Li et al., 2025 — [In-the-Flow Agentic System Optimization for Effective Planning and Tool Use (AgentFlow)](https://arxiv.org/abs/2510.05592) | [`sem3/2510.05592-agentflow/admission.ipynb`](sem3/2510.05592-agentflow/admission.ipynb) |
+
+## Семинар 4
+
+| Статья | Допуск |
+|---|---|
+| Chhikara et al., 2025 — [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413) | [`sem4/2504.19413-mem0/admission.ipynb`](sem4/2504.19413-mem0/admission.ipynb) |
+| Wu et al., 2026 — [LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues](https://arxiv.org/abs/2605.12493) | [`sem4/2605.12493-longmemeval-v2/admission.ipynb`](sem4/2605.12493-longmemeval-v2/admission.ipynb) |
+| Li et al., 2026 — [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks](https://arxiv.org/abs/2602.12670) | [`sem4/2602.12670-skillsbench/admission.ipynb`](sem4/2602.12670-skillsbench/admission.ipynb) |
