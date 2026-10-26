@@ -1,0 +1,36 @@
+# Заготовка. Все собственные сервисы собираются из исходников (build), базовые образы — с закреплённой версией.
+# Как сандбокс-менеджер запускает сандбоксы (Docker socket / rootless / sysbox / gVisor) — решение в ADR.
+
+services:
+  gateway:
+    build: ./services/gateway
+    env_file: .env
+    ports: ["${GATEWAY_PORT:-8080}:8080"]
+    depends_on: [harness]
+    healthcheck: {test: ["CMD", "true"], interval: 10s}   # заменить на реальную проверку
+
+  harness:
+    build: ./services/harness
+    environment:
+      LLM_URL: http://llm-proxy:8000      # харнес ходит в модель только через прокси
+    depends_on: [llm-proxy, sandbox-manager]
+    healthcheck: {test: ["CMD", "true"], interval: 10s}
+
+  sandbox-manager:
+    build: ./services/sandbox-manager
+    env_file: .env
+    # volumes / privileges — по ADR о способе запуска сандбоксов
+    healthcheck: {test: ["CMD", "true"], interval: 10s}
+
+  llm-proxy:
+    build: ./services/llm-proxy
+    env_file: .env                         # ключ только здесь
+    healthcheck: {test: ["CMD", "true"], interval: 10s}
+
+  # Тестовые сервисы для инфраструктурных тестов: docker compose --profile test up
+  allowed-http:
+    profiles: [test]
+    image: nginx:1.27-alpine
+  blocked-http:
+    profiles: [test]
+    image: nginx:1.27-alpine

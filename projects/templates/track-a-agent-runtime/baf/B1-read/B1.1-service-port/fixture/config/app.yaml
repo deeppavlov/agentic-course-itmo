@@ -1,0 +1,8 @@
+service:
+  name: orders
+  listen:
+    host: 0.0.0.0
+    port: 8137
+  # старый порт, больше не используется: 8080
+logging:
+  level: info

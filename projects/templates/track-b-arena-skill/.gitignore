@@ -1,0 +1,4 @@
+__pycache__/
+# private и public держит оценщик, не коммитить
+*.private.jsonl
+*.public.jsonl

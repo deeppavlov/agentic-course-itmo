@@ -1,0 +1,7 @@
+id: B1.1
+baf: B1
+level: simple
+messages:
+  - "На каком порту слушает сервис? Запиши только число в файл answer.txt в корне рабочей папки."
+answer_file: answer.txt
+timeout_s: 180

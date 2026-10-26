@@ -1,0 +1,10 @@
+{
+  "kind": "command",
+  "direction": "maximize",
+  "version": "<case>-metric-v1",
+  "command": {
+    "argv": ["python", "score.py"],
+    "uses_model": false,
+    "timeout_seconds": 30
+  }
+}

@@ -1,0 +1,55 @@
+# Курсовой набор БАФ (примерный). Студент добавляет свои задачи по каждой БАФ, одну свою БАФ и одну составную.
+version: 1
+bafs:
+  B1:
+    name: Чтение и извлечение
+    tasks:
+      - {id: B1.1, level: simple, prompt: "На каком порту слушает сервис? Запиши число в answer.txt", check: "answer.txt == порт из config/app.yaml"}
+      - {id: B1.2, level: medium, prompt: "Какой срок оплаты в днях по договору contract.md? Запиши число в answer.txt", check: "точное число; договор ~15 страниц"}
+      - {id: B1.3, level: trap,   prompt: "Какой размер неустойки по договору? Запиши в answer.txt", check: "в договоре нет ответа → answer.txt == 'НЕТ ДАННЫХ'"}
+  B2:
+    name: Поиск
+    tasks:
+      - {id: B2.1, level: simple, prompt: "В каком файле определена функция parse_date? Запиши путь в answer.txt", check: "путь совпадает"}
+      - {id: B2.2, level: medium, prompt: "Перечисли все файлы, где читается переменная окружения DB_URL, по одному на строку в answer.txt", check: "множество совпадает (12 из ~200)"}
+      - {id: B2.3, level: trap,   prompt: "Где функция, которая парсит даты ISO 8601 с таймзоной? Путь в answer.txt", check: "две функции parse_date в разных модулях; выбрана нужная по поведению"}
+  B3:
+    name: Создание файла
+    tasks:
+      - {id: B3.1, level: simple, prompt: "Создай config.json по спецификации spec.md", check: "валиден по скрытой JSON Schema"}
+      - {id: B3.2, level: medium, prompt: "Сделай report.csv из таблицы в task.md, отсортируй по дате", check: "содержимое и порядок совпадают"}
+      - {id: B3.3, level: trap,   prompt: "Создай countries.yaml из таблицы (коды стран, в т.ч. NO, ON) и postal.yaml (индексы с ведущим нулём)", check: "при чтении YAML значения остаются строками: 'NO', 'ON', '0123'"}
+  B4:
+    name: Редактирование
+    tasks:
+      - {id: B4.1, level: simple, prompt: "Обнови версию до 1.3 в разделе Install в README.md", check: "изменена одна строка; остальное байт-в-байт"}
+      - {id: B4.2, level: medium, prompt: "Переименуй calc_total в compute_total во всём проекте", check: "скрытые тесты проходят; старого имени в коде нет; лишние файлы не тронуты"}
+      - {id: B4.3, level: trap,   prompt: "Поменяй цену товара X на 990 в prices.csv", check: "файл в cp1251 с CRLF: значение изменено, кодировка и переводы строк сохранены"}
+  B5:
+    name: Использование инструмента
+    tasks:
+      - {id: B5.1, level: simple, prompt: "Запусти python stats.py data.csv и запиши медиану в answer.txt", check: "число верное"}
+      - {id: B5.2, level: medium, prompt: "Прогони тесты проекта и запиши имена упавших в failed.txt", check: "множество имён совпадает (3 из 20)"}
+      - {id: B5.3, level: trap,   prompt: "Успешно ли отрабатывает build.sh? Запиши yes/no и причину в answer.txt", check: "скрипт печатает OK, но exit 1 → 'no' + причина из stderr"}
+  B6:
+    name: Генерация кода
+    tasks:
+      - {id: B6.1, level: simple, prompt: "Напиши slugify(text) в slug.py по спецификации spec.md", check: "скрытые тесты"}
+      - {id: B6.2, level: medium, prompt: "Напиши parse_logs.py: агрегаты по часам для логов формата из spec.md", check: "скрытые тесты"}
+      - {id: B6.3, level: trap,   prompt: "Напиши days_between(a, b) по spec.md", check: "скрытые тесты на края: пустой ввод, юникод в формате, 29 февраля, разные годы"}
+  B7:
+    name: Рассуждение
+    tasks:
+      - {id: B7.1, level: simple, prompt: "Успеет ли пассажир на пересадку в городе Y по schedule.csv? Ответ yes/no и время в answer.txt", check: "ответ и время"}
+      - {id: B7.2, level: medium, prompt: "Какие роли имеют доступ к ресурсу R по policy.yaml? Список в answer.txt", check: "наследование ролей и явные запреты; множество совпадает"}
+      - {id: B7.3, level: trap,   prompt: "Имеет ли роль Z доступ к ресурсу Q по policy.yaml?", check: "правила противоречат друг другу → агент указывает противоречие, а не выбирает наугад"}
+  B8:
+    name: Синтез из источников
+    tasks:
+      - {id: B8.1, level: simple, prompt: "Посчитай сумму продаж за квартал по файлам sales/*.csv", check: "число верное (5 CSV)"}
+      - {id: B8.2, level: medium, prompt: "Собери все решения из протоколов meetings/*.md в decisions.json: решение, дата, ответственный", check: "JSON совпадает с эталоном (10 протоколов)"}
+      - {id: B8.3, level: trap,   prompt: "Какой срок согласования заявки по регламенту? Ответ в answer.txt", check: "две версии регламента расходятся → взята актуальная по дате, расхождение указано"}
+composite:
+  - {id: C1, prompt: "Почини баг по описанию issue.md", decomposition: [B2, B1, B7, B4, B5], check: "скрытые тесты проходят"}
+  - {id: C2, prompt: "Сделай отчёт report.md по данным отдела в data/", decomposition: [B2, B8, B7, B3], check: "ключевые числа отчёта совпадают с эталоном"}
+  - {id: C3, prompt: "Добавь в проект утилиту из spec.md с тестами", decomposition: [B1, B6, B5, B4], check: "скрытые тесты + тесты агента проходят"}
