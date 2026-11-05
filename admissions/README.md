@@ -61,3 +61,11 @@
 | Chhikara et al., 2025 — [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413) | [`sem4/2504.19413-mem0/admission.ipynb`](sem4/2504.19413-mem0/admission.ipynb) |
 | Wu et al., 2026 — [LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues](https://arxiv.org/abs/2605.12493) | [`sem4/2605.12493-longmemeval-v2/admission.ipynb`](sem4/2605.12493-longmemeval-v2/admission.ipynb) |
 | Li et al., 2026 — [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks](https://arxiv.org/abs/2602.12670) | [`sem4/2602.12670-skillsbench/admission.ipynb`](sem4/2602.12670-skillsbench/admission.ipynb) |
+
+## Семинар 5
+
+| Статья | Допуск |
+|---|---|
+| Agrawal et al., 2025 — [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457v2) | [`sem5/2507.19457-gepa/admission.ipynb`](sem5/2507.19457-gepa/admission.ipynb) |
+| Zhang et al., 2025 — [Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/abs/2505.22954v3) | [`sem5/2505.22954-darwin-godel-machine/admission.ipynb`](sem5/2505.22954-darwin-godel-machine/admission.ipynb) |
+| Cemri et al., 2025 — [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657v3) | [`sem5/2503.13657-mast/admission.ipynb`](sem5/2503.13657-mast/admission.ipynb) |
