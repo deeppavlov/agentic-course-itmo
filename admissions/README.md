@@ -69,3 +69,11 @@
 | Agrawal et al., 2025 — [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457v2) | [`sem5/2507.19457-gepa/admission.ipynb`](sem5/2507.19457-gepa/admission.ipynb) |
 | Zhang et al., 2025 — [Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/abs/2505.22954v3) | [`sem5/2505.22954-darwin-godel-machine/admission.ipynb`](sem5/2505.22954-darwin-godel-machine/admission.ipynb) |
 | Cemri et al., 2025 — [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657v3) | [`sem5/2503.13657-mast/admission.ipynb`](sem5/2503.13657-mast/admission.ipynb) |
+
+## Семинар 6
+
+| Статья | Допуск |
+|---|---|
+| Wang et al., 2025 — [OpenHands: An Open Platform for AI Software Developers as Generalist Agents](https://proceedings.iclr.cc/paper_files/paper/2025/file/a4b6ad6b48850c0c331d1259fc66a69c-Paper-Conference.pdf) | [`sem6/2407.16741-openhands/admission.ipynb`](sem6/2407.16741-openhands/admission.ipynb) |
+| Merrill et al., 2026 — [Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces](https://arxiv.org/abs/2601.11868v1) | [`sem6/2601.11868-terminal-bench/admission.ipynb`](sem6/2601.11868-terminal-bench/admission.ipynb) |
+| Liu et al., 2025 — [DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks](https://arxiv.org/abs/2504.11358v4) | [`sem6/2504.11358-datasentinel/admission.ipynb`](sem6/2504.11358-datasentinel/admission.ipynb) |
